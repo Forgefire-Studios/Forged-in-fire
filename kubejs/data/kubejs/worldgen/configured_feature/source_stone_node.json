@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": "kubejs:source_stone_vein_15",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "kubejs:source_stone_vein_20",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "kubejs:source_stone_vein_25",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "kubejs:source_stone_vein_30",
+      "placement": []
+    }
+  }
+}
