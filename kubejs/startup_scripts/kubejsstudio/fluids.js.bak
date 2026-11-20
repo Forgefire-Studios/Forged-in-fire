@@ -1,0 +1,4 @@
+// kubejsstudio registry additions; re-apply merges by id
+StartupEvents.registry('fluid', event => {
+    event.create('kubejs:liquid_source').displayName('Liquid Source').tint('0xff1bf7').type(t => t.lightLevel(4).density(2000).rarity('rare').supportsBoating(true))
+})

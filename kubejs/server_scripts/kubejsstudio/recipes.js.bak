@@ -1,0 +1,7 @@
+// kubejsstudio recipes; re-apply merges by recipe id
+ServerEvents.generateData('after_mods', event => {
+    event.json('kubejsstudio:recipe/arcane_log', {"type":"ars_nouveau:imbuement","input":{"tag":"c:stones"},"output":{"count":1,"id":"ars_nouveau:sourcestone"},"pedestalItems":[],"source":500})
+})
+ServerEvents.recipes(event => {
+    event.remove({ id: 'ars_nouveau:sourcestone' })
+})

@@ -1,0 +1,10 @@
+// kubejsstudio registry additions; re-apply merges by id
+StartupEvents.registry('block', event => {
+    event.create('kubejs:condensed_aer').displayName('Condensed Aer').parentModel('betterblockz:block/iron_blockz_0')
+    event.create('kubejs:condensed_ordo').displayName('Condensed Ordo').parentModel('betterblockz:block/gold_blockz_0')
+    event.create('kubejs:condensed_aqua').displayName('Condensed Aqua').parentModel('chipped:block/angry_lapis_block')
+    event.create('kubejs:condensed_ignis').parentModel('betterblockz:block/zeno_orange_blockz_0')
+    event.create('kubejs:condensed_terra').displayName('Condensed Terra').parentModel('chipped:block/ancient_emerald_block')
+    event.create('kubejs:condensed_perditio').displayName('Condensed Perditio').parentModel('chipped:block/crying_coal_block')
+    event.create('kubejs:arcane_log').displayName('Arcane log').parentModel('chipped:block/firewood_oak_log')
+})
